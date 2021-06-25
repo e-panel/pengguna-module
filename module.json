@@ -1,0 +1,16 @@
+{
+    "name": "Pengguna",
+    "alias": "pengguna",
+    "description": "Module Pengguna untuk E-Panel.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Pengguna\\Providers\\PenggunaServiceProvider"
+    ],
+    "aliases": {
+        "Operator": "Modules\\Pengguna\\Entities\\Operator", 
+        "Role": "Modules\\Pengguna\\Entities\\Role"
+    },
+    "files": [],
+    "requires": []
+}
